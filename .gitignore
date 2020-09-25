@@ -1,0 +1,11 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/XamBuildersDiary/.vs/XamBuildersDiary
+/XamBuildersDiary/XamBuildersDiary/XamBuildersDiary/bin/Debug/netstandard2.0
+/XamBuildersDiary/XamBuildersDiary/XamBuildersDiary.Android/bin/Debug
+/XamBuildersDiary/XamBuildersDiary/XamBuildersDiary.Android/obj
+/XamBuildersDiary/XamBuildersDiary/XamBuildersDiary.iOS/bin/iPhone/Debug
+/XamBuildersDiary/XamBuildersDiary/XamBuildersDiary.iOS/obj
