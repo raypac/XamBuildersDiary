@@ -134,4 +134,7 @@
       <Name>XamBuildersDiary</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\pin16.png" />
+  </ItemGroup>
 </Project>

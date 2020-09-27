@@ -2,26 +2,35 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="XamBuildersDiary.Views.NewSiteDiaryPage"
-             Title="New Diary">
+             Title="{Binding Title}">
     <ContentPage.Content>
         <ScrollView>
             <StackLayout>
                 <StackLayout Spacing="20" Padding="15">
-                    <Label Text="Location Placeholder" FontSize="Medium" />
-                </StackLayout>
-                <StackLayout Spacing="20" Padding="15" BackgroundColor="#e5e5e5">
                     <Grid>
                         <Grid.ColumnDefinitions>
-                            <ColumnDefinition Width="0.05*" />
-                            <ColumnDefinition Width="10*" />
+                            <ColumnDefinition Width="Auto" />
+                            <ColumnDefinition Width="Auto" />
                         </Grid.ColumnDefinitions>
                         <Grid.RowDefinitions>
                             <RowDefinition Height="Auto" />
                         </Grid.RowDefinitions>
-                        <Label Grid.Row="1" Grid.Column="1" Text="Add to site diary" FontSize="Large" VerticalTextAlignment="Start" VerticalOptions="StartAndExpand" />
-                        <Label Grid.Row="1" Grid.Column="2" Text="?" FontSize="Large" VerticalTextAlignment="End" VerticalOptions="End" />
+                        <Image Grid.Row="1" Grid.Column="1" Source="pin16.png" />
+                        <Label Grid.Row="1" Grid.Column="2" FontSize="Small" Text="{Binding Location}" HorizontalOptions="FillAndExpand" />
                     </Grid>
-
+                </StackLayout>
+                <StackLayout Spacing="20" Padding="15" BackgroundColor="#e5e5e5">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto" />
+                            <ColumnDefinition Width="Auto" />
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto" />
+                        </Grid.RowDefinitions>
+                        <Label Grid.Row="1" Grid.Column="1" Text="Add to site diary" FontSize="Large" HorizontalOptions="FillAndExpand" HorizontalTextAlignment="Start" />
+                        <Label Grid.Row="1" Grid.Column="2" Text="?" FontSize="Large" HorizontalOptions="FillAndExpand" HorizontalTextAlignment="End"  />
+                    </Grid>
                     <Frame Padding="15" BackgroundColor="White" CornerRadius="5">
                         <StackLayout Spacing="20" BackgroundColor="White">
                             <Label Text="Add Photos to site diary" FontSize="Medium" FontAttributes="Bold" VerticalTextAlignment="Start" VerticalOptions="StartAndExpand" />
@@ -37,7 +46,7 @@
                                     <RowDefinition Height="Auto" />
                                 </Grid.RowDefinitions>
                                 <Label Grid.Row="1" Grid.Column="1" Text="Include in photo gallery" FontAttributes="Bold"  />
-                                <CheckBox Grid.Row="1" Grid.Column="2" IsChecked="{Binding siteDiary.InclueInPhotoGallery}"  />
+                                <CheckBox Grid.Row="1" Grid.Column="2" IsChecked="{Binding InclueInPhotoGallery}"  />
                             </Grid>
                         </StackLayout>
                     </Frame>
@@ -46,7 +55,7 @@
                         <StackLayout Spacing="20" Padding="15" BackgroundColor="White">
                             <Label Text="Comments" FontSize="Medium" FontAttributes="Bold" VerticalTextAlignment="Start" VerticalOptions="StartAndExpand" />
                             <BoxView HeightRequest="1" BackgroundColor="#e5e5e5" HorizontalOptions="FillAndExpand" />
-                            <Entry Text="{Binding siteDiary.Commment}" Placeholder="Comments" PlaceholderColor="DarkGray" />
+                            <Entry Text="{Binding Commment}" Placeholder="Comments" PlaceholderColor="DarkGray" />
                         </StackLayout>
                     </Frame>
 
@@ -54,9 +63,9 @@
                         <StackLayout Spacing="20" Padding="15" BackgroundColor="White">
                             <Label Text="Details" FontSize="Medium" FontAttributes="Bold" VerticalTextAlignment="Start" VerticalOptions="StartAndExpand" />
                             <BoxView HeightRequest="1" BackgroundColor="#e5e5e5" HorizontalOptions="FillAndExpand" />
-                            <DatePicker MinimumDate="01/01/2000" MaximumDate="12/31/2050" Date="{Binding siteDiary.Date}" TextColor="DarkGray" />
-                            <Picker Title="Select Area" ItemsSource="{Binding Area }" SelectedItem="{Binding siteDiary.Area, Mode=TwoWay}" />
-                            <Picker Title="Task Category" ItemsSource="{Binding TaskCategory }" SelectedItem="{Binding siteDiary.TaskCategory, Mode=TwoWay}" />
+                            <DatePicker MinimumDate="01/01/2000" MaximumDate="12/31/2050" Date="{Binding Date}" TextColor="DarkGray" />
+                            <Picker Title="Select Area" ItemsSource="{Binding AreaList }" SelectedItem="{Binding Area, Mode=TwoWay}" />
+                            <Picker Title="Task Category" ItemsSource="{Binding TaskCategoryList }" SelectedItem="{Binding TaskCategory, Mode=TwoWay}" />
                             <Entry Text="Tags" TextColor="DarkGray" />
                         </StackLayout>
                     </Frame>
@@ -72,9 +81,9 @@
                                     <RowDefinition Height="Auto" />
                                 </Grid.RowDefinitions>
                                 <Label Grid.Row="1" Grid.Column="1" Text="Link to existing event?" FontAttributes="Bold"  />
-                                <CheckBox Grid.Row="1" Grid.Column="2" IsChecked="{Binding siteDiary.IsLinkedToExistingEvent }"  />
+                                <CheckBox Grid.Row="1" Grid.Column="2" IsChecked="{Binding IsLinkedToExistingEvent }"  />
                             </Grid>
-                            <Picker Title="Select an event" ItemsSource="{Binding EventList }" SelectedItem="{Binding siteDiary.Event, Mode=TwoWay}" />
+                            <Picker Title="Select an event" ItemsSource="{Binding EventList }" SelectedItem="{Binding Event, Mode=TwoWay}" />
                         </StackLayout>
                     </Frame>
                     <Button Text="Next" BackgroundColor="#96d600" TextColor="White" Command="{Binding NextCommand}" CornerRadius="5" />

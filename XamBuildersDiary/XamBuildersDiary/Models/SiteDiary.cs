@@ -30,8 +30,8 @@ namespace XamBuildersDiary.Models
         /// <summary>
         ///     Property for Include In Photo Gallery.
         /// </summary>
-        [JsonProperty("InclueInPhotoGallery")]
-        public bool InclueInPhotoGallery { get; set; }
+        [JsonProperty("IncludeInPhotoGallery")]
+        public bool IncludeInPhotoGallery { get; set; }
 
         /// <summary>
         ///     Property for Comments.

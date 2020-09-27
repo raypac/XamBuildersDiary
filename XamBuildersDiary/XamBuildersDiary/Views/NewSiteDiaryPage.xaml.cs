@@ -18,7 +18,6 @@ namespace XamBuildersDiary.Views
         public NewSiteDiaryPage()
         {
             InitializeComponent();
-
             BindingContext = this.viewModel = new NewSiteDiaryViewModel();
         }
     }

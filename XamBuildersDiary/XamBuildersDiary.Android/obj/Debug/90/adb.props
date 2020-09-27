@@ -1,2 +1,2 @@
-AdbTarget=-s emulator-5554
+AdbTarget=-s SDEDU19A17006073
 AdbOptions=

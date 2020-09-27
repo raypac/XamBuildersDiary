@@ -463,6 +463,15 @@ C:\Users\rpaca\source\repos\github\raypac\XamBuildersDiary\XamBuildersDiary\XamB
 C:\Users\rpaca\source\repos\github\raypac\XamBuildersDiary\XamBuildersDiary\XamBuildersDiary\XamBuildersDiary.Android\obj\Debug\90\stamp\_GenerateJavaStubs.stamp
 C:\Users\rpaca\source\repos\github\raypac\XamBuildersDiary\XamBuildersDiary\XamBuildersDiary\XamBuildersDiary.Android\obj\Debug\90\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\rpaca\source\repos\github\raypac\XamBuildersDiary\XamBuildersDiary\XamBuildersDiary\XamBuildersDiary.Android\obj\Debug\90\stamp\_ResolveLibraryProjectImports.stamp
+C:\Users\rpaca\source\repos\github\raypac\XamBuildersDiary\XamBuildersDiary\XamBuildersDiary.Android\obj\Debug\90\MonoAndroid,Version=v9.0.AssemblyAttributes.cs
+C:\Users\rpaca\source\repos\github\raypac\XamBuildersDiary\XamBuildersDiary\XamBuildersDiary.Android\obj\Debug\90\build.props
+C:\Users\rpaca\source\repos\github\raypac\XamBuildersDiary\XamBuildersDiary\XamBuildersDiary.Android\obj\Debug\90\adb.props
+C:\Users\rpaca\source\repos\github\raypac\XamBuildersDiary\XamBuildersDiary\XamBuildersDiary.Android\obj\Debug\90\_VerifyXamarinAndroidSupportVersions.stamp
+C:\Users\rpaca\source\repos\github\raypac\XamBuildersDiary\XamBuildersDiary\XamBuildersDiary.Android\obj\Debug\90\stamp\_BuildLibraryImportsCache.stamp
+C:\Users\rpaca\source\repos\github\raypac\XamBuildersDiary\XamBuildersDiary\XamBuildersDiary.Android\obj\Debug\90\res.flag
+C:\Users\rpaca\source\repos\github\raypac\XamBuildersDiary\XamBuildersDiary\XamBuildersDiary.Android\obj\Debug\90\R.txt
+C:\Users\rpaca\source\repos\github\raypac\XamBuildersDiary\XamBuildersDiary\XamBuildersDiary.Android\obj\Debug\90\R.cs.flag
+C:\Users\rpaca\source\repos\github\raypac\XamBuildersDiary\XamBuildersDiary\XamBuildersDiary.Android\obj\Debug\90\XamBuildersDiary.Android.csproj.CoreCompileInputs.cache
 C:\Users\rpaca\source\repos\github\raypac\XamBuildersDiary\XamBuildersDiary\XamBuildersDiary.Android\bin\Debug\XamBuildersDiary.Android.dll
 C:\Users\rpaca\source\repos\github\raypac\XamBuildersDiary\XamBuildersDiary\XamBuildersDiary.Android\bin\Debug\XamBuildersDiary.Android.pdb
 C:\Users\rpaca\source\repos\github\raypac\XamBuildersDiary\XamBuildersDiary\XamBuildersDiary.Android\bin\Debug\com.companyname.xambuildersdiary.apk
@@ -472,16 +481,7 @@ C:\Users\rpaca\source\repos\github\raypac\XamBuildersDiary\XamBuildersDiary\XamB
 C:\Users\rpaca\source\repos\github\raypac\XamBuildersDiary\XamBuildersDiary\XamBuildersDiary.Android\bin\Debug\com.companyname.xambuildersdiary-Signed.apk.idsig
 C:\Users\rpaca\source\repos\github\raypac\XamBuildersDiary\XamBuildersDiary\XamBuildersDiary.Android\bin\Debug\XamBuildersDiary.dll
 C:\Users\rpaca\source\repos\github\raypac\XamBuildersDiary\XamBuildersDiary\XamBuildersDiary.Android\bin\Debug\XamBuildersDiary.pdb
-C:\Users\rpaca\source\repos\github\raypac\XamBuildersDiary\XamBuildersDiary\XamBuildersDiary.Android\obj\Debug\90\MonoAndroid,Version=v9.0.AssemblyAttributes.cs
-C:\Users\rpaca\source\repos\github\raypac\XamBuildersDiary\XamBuildersDiary\XamBuildersDiary.Android\obj\Debug\90\build.props
-C:\Users\rpaca\source\repos\github\raypac\XamBuildersDiary\XamBuildersDiary\XamBuildersDiary.Android\obj\Debug\90\adb.props
 C:\Users\rpaca\source\repos\github\raypac\XamBuildersDiary\XamBuildersDiary\XamBuildersDiary.Android\obj\Debug\90\XamBuildersDiary.Android.csprojAssemblyReference.cache
-C:\Users\rpaca\source\repos\github\raypac\XamBuildersDiary\XamBuildersDiary\XamBuildersDiary.Android\obj\Debug\90\_VerifyXamarinAndroidSupportVersions.stamp
-C:\Users\rpaca\source\repos\github\raypac\XamBuildersDiary\XamBuildersDiary\XamBuildersDiary.Android\obj\Debug\90\stamp\_BuildLibraryImportsCache.stamp
-C:\Users\rpaca\source\repos\github\raypac\XamBuildersDiary\XamBuildersDiary\XamBuildersDiary.Android\obj\Debug\90\res.flag
-C:\Users\rpaca\source\repos\github\raypac\XamBuildersDiary\XamBuildersDiary\XamBuildersDiary.Android\obj\Debug\90\R.txt
-C:\Users\rpaca\source\repos\github\raypac\XamBuildersDiary\XamBuildersDiary\XamBuildersDiary.Android\obj\Debug\90\R.cs.flag
-C:\Users\rpaca\source\repos\github\raypac\XamBuildersDiary\XamBuildersDiary\XamBuildersDiary.Android\obj\Debug\90\XamBuildersDiary.Android.csproj.CoreCompileInputs.cache
 C:\Users\rpaca\source\repos\github\raypac\XamBuildersDiary\XamBuildersDiary\XamBuildersDiary.Android\obj\Debug\90\XamlC.stamp
 C:\Users\rpaca\source\repos\github\raypac\XamBuildersDiary\XamBuildersDiary\XamBuildersDiary.Android\obj\Debug\90\XamBuildersDiary.Android.csproj.CopyComplete
 C:\Users\rpaca\source\repos\github\raypac\XamBuildersDiary\XamBuildersDiary\XamBuildersDiary.Android\obj\Debug\90\XamBuildersDiary.Android.dll
@@ -506,6 +506,7 @@ C:\Users\rpaca\source\repos\github\raypac\XamBuildersDiary\XamBuildersDiary\XamB
 C:\Users\rpaca\source\repos\github\raypac\XamBuildersDiary\XamBuildersDiary\XamBuildersDiary.Android\obj\Debug\90\res\mipmap-xxhdpi\launcher_foreground.png
 C:\Users\rpaca\source\repos\github\raypac\XamBuildersDiary\XamBuildersDiary\XamBuildersDiary.Android\obj\Debug\90\res\mipmap-xxxhdpi\icon.png
 C:\Users\rpaca\source\repos\github\raypac\XamBuildersDiary\XamBuildersDiary\XamBuildersDiary.Android\obj\Debug\90\res\mipmap-xxxhdpi\launcher_foreground.png
+C:\Users\rpaca\source\repos\github\raypac\XamBuildersDiary\XamBuildersDiary\XamBuildersDiary.Android\obj\Debug\90\res\drawable\pin16.png
 C:\Users\rpaca\source\repos\github\raypac\XamBuildersDiary\XamBuildersDiary\XamBuildersDiary.Android\obj\Debug\90\uploadflags.txt
 C:\Users\rpaca\source\repos\github\raypac\XamBuildersDiary\XamBuildersDiary\XamBuildersDiary.Android\obj\Debug\90\resolvedassemblies.hash
 C:\Users\rpaca\source\repos\github\raypac\XamBuildersDiary\XamBuildersDiary\XamBuildersDiary.Android\obj\Debug\90\android\assets\FormsViewGroup.dll
@@ -518,6 +519,7 @@ C:\Users\rpaca\source\repos\github\raypac\XamBuildersDiary\XamBuildersDiary\XamB
 C:\Users\rpaca\source\repos\github\raypac\XamBuildersDiary\XamBuildersDiary\XamBuildersDiary.Android\obj\Debug\90\android\assets\mscorlib.dll
 C:\Users\rpaca\source\repos\github\raypac\XamBuildersDiary\XamBuildersDiary\XamBuildersDiary.Android\obj\Debug\90\android\assets\mscorlib.pdb
 C:\Users\rpaca\source\repos\github\raypac\XamBuildersDiary\XamBuildersDiary\XamBuildersDiary.Android\obj\Debug\90\android\assets\netstandard.dll
+C:\Users\rpaca\source\repos\github\raypac\XamBuildersDiary\XamBuildersDiary\XamBuildersDiary.Android\obj\Debug\90\android\assets\Newtonsoft.Json.dll
 C:\Users\rpaca\source\repos\github\raypac\XamBuildersDiary\XamBuildersDiary\XamBuildersDiary.Android\obj\Debug\90\android\assets\System.ComponentModel.Composition.dll
 C:\Users\rpaca\source\repos\github\raypac\XamBuildersDiary\XamBuildersDiary\XamBuildersDiary.Android\obj\Debug\90\android\assets\System.ComponentModel.Composition.pdb
 C:\Users\rpaca\source\repos\github\raypac\XamBuildersDiary\XamBuildersDiary\XamBuildersDiary.Android\obj\Debug\90\android\assets\System.Core.dll
@@ -928,4 +930,3 @@ C:\Users\rpaca\source\repos\github\raypac\XamBuildersDiary\XamBuildersDiary\XamB
 C:\Users\rpaca\source\repos\github\raypac\XamBuildersDiary\XamBuildersDiary\XamBuildersDiary.Android\obj\Debug\90\stamp\_GenerateJavaStubs.stamp
 C:\Users\rpaca\source\repos\github\raypac\XamBuildersDiary\XamBuildersDiary\XamBuildersDiary.Android\obj\Debug\90\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\rpaca\source\repos\github\raypac\XamBuildersDiary\XamBuildersDiary\XamBuildersDiary.Android\obj\Debug\90\stamp\_ResolveLibraryProjectImports.stamp
-C:\Users\rpaca\source\repos\github\raypac\XamBuildersDiary\XamBuildersDiary\XamBuildersDiary.Android\obj\Debug\90\android\assets\Newtonsoft.Json.dll

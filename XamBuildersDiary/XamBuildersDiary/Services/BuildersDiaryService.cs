@@ -22,12 +22,18 @@ namespace XamBuildersDiary.Services
     {
         #region Fields
 
+        /// <summary>
+        /// Private static property for Builders Diary Service Instance
+        /// </summary>
         private static BuildersDiaryService _instance;
 
         #endregion
 
         #region Properties
 
+        /// <summary>
+        /// Public Property for Builders Diary Service Instance
+        /// </summary>
         public static BuildersDiaryService Instance
         {
             get
@@ -40,6 +46,9 @@ namespace XamBuildersDiary.Services
 
         #region Constructor
 
+        /// <summary>
+        /// Constructor Builders Diary Service
+        /// </summary>
         public BuildersDiaryService()
         {
 
@@ -49,6 +58,11 @@ namespace XamBuildersDiary.Services
 
         #region Method
 
+        /// <summary>
+        /// Post Site Diary Async
+        /// </summary>
+        /// <returns>The Post Site Diary Async Result.</returns>
+        /// <param name="siteDiary">SiteDiary Model</param>
         public async Task<Result> PostSiteDiaryAsync(SiteDiary siteDiary)
         {
             var result = new Result() { DidSucceed = false };
@@ -82,6 +96,50 @@ namespace XamBuildersDiary.Services
 
             return result;
         }
+
+        /// <summary>
+        /// Post Site Diary Async
+        /// </summary>
+        /// <returns>The Reverse Geocoding Response Result.</returns>
+        /// <param name="latitude">Longitude</param>
+        /// <param name="longitude">Longitude</param>
+        public async Task<Result> GetReverseGeoCoding(double latitude, double longitude)
+        {
+            var result = new Result() { DidSucceed = false };
+
+            try
+            {
+                using (var client = new HttpClient())
+                {
+                    var apiUri = $"{StaticDefinition.LocationIQApiUrl}/{StaticDefinition.LocationIQRGEndPoint.Replace("{lat}", latitude.ToString()).Replace("{long}", longitude.ToString())}";
+
+                    client.BaseAddress = new Uri(apiUri);
+
+                    var request = new HttpRequestMessage(HttpMethod.Get, apiUri);
+
+                    using (var resp = await client.SendAsync(request))
+                    {
+                        if (resp.StatusCode == System.Net.HttpStatusCode.OK)
+                        {
+                            using (var content = resp.Content)
+                            {
+                                var jsonResult = content.ReadAsStringAsync().Result;
+                                var reverseGeocoding = JsonConvert.DeserializeObject<ReverseGeocodingResponse>(jsonResult);
+                                result.DidSucceed = true;
+                                result.ResponseObject = reverseGeocoding;
+                            }
+                        }
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+
+            return result;
+        }
+
 
         #endregion
 

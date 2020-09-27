@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "dS0QQgxCFg20k6qBHxix3a46YTn8QmYcYb538xeowPLDXZWA/ya31BQGGxIfQwjN63kJWWjAkIwMYvvCKR4FFw==",
+  "dgSpecHash": "OmLJU/vzBE7SCpdimci+xeQ9/Vrj6Q2Ac1pKdKqr+UJvs7GS0/4XE4aLNZGzqU5lqP8htF+/rHPBJs0msDuTXQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\rpaca\\source\\repos\\github\\raypac\\XamBuildersDiary\\XamBuildersDiary\\XamBuildersDiary.Android\\XamBuildersDiary.Android.csproj",
   "expectedPackageFiles": [
@@ -45,5 +45,16 @@
     "C:\\Users\\rpaca\\.nuget\\packages\\xamarin.essentials\\1.5.3.2\\xamarin.essentials.1.5.3.2.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\4.6.0.1141\\xamarin.forms.4.6.0.1141.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1605",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package downgrade: Xamarin.Forms from 4.8.0.1451 to 4.6.0.1141. Reference the package directly from the project to select a different version. \r\n XamBuildersDiary.Android -> XamBuildersDiary -> Xamarin.Forms (>= 4.8.0.1451) \r\n XamBuildersDiary.Android -> Xamarin.Forms (>= 4.6.0.1141)",
+      "libraryId": "Xamarin.Forms",
+      "targetGraphs": [
+        "MonoAndroid,Version=v9.0"
+      ]
+    }
+  ]
 }

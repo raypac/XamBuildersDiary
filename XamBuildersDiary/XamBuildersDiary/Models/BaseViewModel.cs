@@ -1,4 +1,11 @@
-﻿using System;
+﻿#region Copyright
+// ===================================================================
+//  This file is part of the XamBuilderDiary application.
+//  Copyright © 2020 Martin Pulgar Construction. All rights reserved.
+// ===================================================================
+#endregion
+
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Runtime.CompilerServices;
@@ -9,23 +16,35 @@ using XamBuildersDiary.Models;
 
 namespace XamBuildersDiary.ViewModels
 {
+    /// <summary>
+    /// Base View Model
+    /// </summary>
+    /// 
     public class BaseViewModel : INotifyPropertyChanged
     {
-        //public IDataStore<SiteDiary> DataStore => DependencyService.Get<IDataStore<SiteDiary>>();
+
+        #region Fields
 
         bool isBusy = false;
+        string title = string.Empty;
+
+        #endregion
+
+        #region Properties
+
         public bool IsBusy
         {
             get { return isBusy; }
             set { SetProperty(ref isBusy, value); }
         }
 
-        string title = string.Empty;
         public string Title
         {
             get { return title; }
             set { SetProperty(ref title, value); }
         }
+
+        #endregion
 
         protected bool SetProperty<T>(ref T backingStore, T value,
             [CallerMemberName] string propertyName = "",
@@ -41,6 +60,7 @@ namespace XamBuildersDiary.ViewModels
         }
 
         #region INotifyPropertyChanged
+
         public event PropertyChangedEventHandler PropertyChanged;
         protected void OnPropertyChanged([CallerMemberName] string propertyName = "")
         {
@@ -50,6 +70,7 @@ namespace XamBuildersDiary.ViewModels
 
             changed.Invoke(this, new PropertyChangedEventArgs(propertyName));
         }
+
         #endregion
     }
 }

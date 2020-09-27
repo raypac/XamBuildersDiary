@@ -32,11 +32,22 @@ namespace XamBuildersDiary.Utilities
         /// <summary>
         ///     Base Api Url
         /// </summary>
-        public static string BaseApiUrl { get; set; } = "https://reqres.in/";
+        public static string BaseApiUrl { get; set; } = "https://reqres.in";
 
         /// <summary>
         ///     End Point
         /// </summary>
         public static string EndPoint { get; set; } = "api/users";
+
+
+        /// <summary>
+        ///     LocationIQ Api Url
+        /// </summary>
+        public static string LocationIQApiUrl { get; set; } = "https://us1.locationiq.com";
+
+        /// <summary>
+        ///     Reverse Geocoding End Point
+        /// </summary>
+        public static string LocationIQRGEndPoint { get; set; } = "v1/reverse.php?key=ad26309469b1c9&format=json&lat={lat}&lon={long}";
     }
 }
